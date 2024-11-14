@@ -1,46 +1,46 @@
-/* Centrado del contenido principal */
+
 ion-content {
   display: flex;
-  justify-content: center; /* Centra el contenido horizontalmente */
-  align-items: center;     /* Centra el contenido verticalmente */
-  height: 100%;            /* Asegura que ocupe toda la altura de la pantalla */
+  justify-content: center; 
+  align-items: center;     
+  height: 100%;            
 }
 
-/* Contenedor del contenido de login */
+
 .login-container {
-  width: 90%; /* Ajusta el ancho según el tamaño deseado */
-  max-width: 500px; /* Limita el ancho máximo */
-  text-align: center; /* Asegura que el texto esté centrado */
-  box-sizing: border-box; /* Asegura que no se agregue padding o borde al tamaño total */
-  padding: 20px; /* Añadir un pequeño padding alrededor */
+  width: 90%; 
+  max-width: 500px; 
+  text-align: center; 
+  box-sizing: border-box; 
+  padding: 20px; 
 }
 
-/* Estilo para centrar 'REGISTRAPP' en la barra de herramientas */
+
 ion-toolbar {
   display: flex;
-  justify-content: center; /* Centra el contenido dentro del toolbar */
-  align-items: center; /* Alinea el contenido verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* Centrado del texto 'REGISTRAPP' */
+
 ion-header ion-title {
-  text-align: center; /* Centra el texto 'REGISTRAPP' */
-  margin: 0; /* Elimina márgenes */
+  text-align: center; 
+  margin: 0; 
 }
 
-/* Estilo para centrar 'Bienvenido' */
+
 .login-container h2 {
-  margin-top: 20px; /* Espaciado entre el título 'Bienvenido' y los campos de formulario */
-  font-size: 1.5em; /* Tamaño de fuente */
-  text-align: center; /* Centrado de 'Bienvenido' */
+  margin-top: 20px; 
+  font-size: 1.5em;
+  text-align: center; 
 }
 
-/* Estilo de los elementos de entrada */
+
 ion-item {
-  margin-bottom: 15px; /* Espaciado entre los campos de entrada */
+  margin-bottom: 15px; 
 }
 
-/* Estilos de los botones */
+
 ion-button {
-  margin-top: 10px; /* Espaciado entre los botones */
+  margin-top: 10px; 
 }

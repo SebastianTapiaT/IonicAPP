@@ -23,17 +23,17 @@
   text-decoration: none;
 }
 
-/* Estilo para centrar el botón FAB */
+
 .fab-container {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  position: absolute; /* Posicionarlo absolutamente */
-  bottom: 20px; /* Ajusta la distancia del fondo según sea necesario */
+  justify-content: center; 
+  position: absolute; 
+  bottom: 20px; 
   left: 0;
-  right: 0; /* Asegura que el contenedor ocupe el ancho completo */
+  right: 0; 
 }
 
-/* Estilo para centrar el título en el toolbar */
+
 ion-toolbar {
-  justify-content: center; /* Centrar el contenido en el toolbar */
+  justify-content: center; 
 }
